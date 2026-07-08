@@ -36,11 +36,11 @@ This repo already comes with all the files built and ready to go, but can also b
 
 1. Install FontForge, which is the program that creates the font files from the SVG files:
 
-   $ brew install fontforge ttfautohint
+    $ brew install fontforge ttfautohint
 
 2. Install [Sass](http://sass-lang.com/)
 
-   $ gem install sass
+    $ gem install sass
 
 3. Add or subtract files from the `src/` folder you'd like to be apart of the font files.
 
@@ -48,7 +48,7 @@ This repo already comes with all the files built and ready to go, but can also b
 
 5. Run the build command:
 
-   python ./builder/generate.py
+    python ./builder/generate.py
 
 ## License
 
